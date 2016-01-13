@@ -1,28 +1,40 @@
-name: PWS
 favicon: null
-layout_spectrum: 0.5258442324120551
-typography_spectrum: 0.5654415246099234
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: PWS
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
-  brandStrength: 0.24329170095734298
-  lightness: 0.7251730510033667
-  saturation: 0.8926031989976764
-  rhythmicContrast: 0.5610934761352837
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8926031989976764
+  brandStrength: 0.243291700957343
+  lightness: 0.7251730510033667
+  brandColors:
+    - '#04CFCD'
+    - '#040505'
+    - '#3C908F'
+    - '#00424A'
+    - '#008889'
+  rhythmicContrast: 0.5610934761352837
+typography_spectrum: 0.5404255
+layout_spectrum: 0.5021276
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
